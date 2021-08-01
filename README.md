@@ -10,23 +10,23 @@ Data is read in data spark frames, which allows to implement lazy evaluation of 
 
 # Parquet files
 
-3. **songplays_table.parquet** - records with page NextSong
+1. **songplays_table.parquet** - records with page NextSong
 
 > - **songplay_id**, **start_time**, **user_id**, **level**, **song_id**, **artist_id**, **session_id**, **location**, **user_agent**
 
-4. **users_table.parquet** - users in the app 
+2. **users_table.parquet** - users in the app 
 
 > - **user_id**, **first_name**, **last_name**, **gender**, **level**
 
-5. **songs_table.parquet** - songs 
+3. **songs_table.parquet** - songs 
 
 > - **song_id**, **title**, **artist_id**, **year**, **duration**
 
-6. **artists_table.parquet** - artists 
+4. **artists_table.parquet** - artists 
 
 > - **artist_id** , **name**, **location**, **latitude**, **longitude**
 
-7. **time_table.parquet** - timestamps of records in **songplays** broken down into specific units
+5. **time_table.parquet** - timestamps of records in **songplays** broken down into specific units
 
 > - **start_time** , **hour** , **day** , **week** , **month** , **year** , **weekday**
 
